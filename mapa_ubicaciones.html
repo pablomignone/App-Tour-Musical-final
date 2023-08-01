@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_37e511cc4a5d4aedb2a62ab0b5c4d217 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_37e511cc4a5d4aedb2a62ab0b5c4d217" ></div>
+        
+</body>
+<script>    
+    
+            var map_37e511cc4a5d4aedb2a62ab0b5c4d217 = L.map(
+                "map_37e511cc4a5d4aedb2a62ab0b5c4d217",
+                {
+                    center: [-24.7859, -65.41166],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d540c64205cc4f26819656ad3329de41 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_37e511cc4a5d4aedb2a62ab0b5c4d217);
+        
+    
+            var marker_5a08d0410d9146d480867e52a637eb08 = L.marker(
+                [-24.7909, -65.4117],
+                {}
+            ).addTo(map_37e511cc4a5d4aedb2a62ab0b5c4d217);
+        
+    
+        var popup_64b1841faafe4a9db4a12014e28f672a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80f2f39922d74da0b0051130317c1f03 = $(`<div id="html_80f2f39922d74da0b0051130317c1f03" style="width: 100.0%; height: 100.0%;">El Teatrino</div>`)[0];
+            popup_64b1841faafe4a9db4a12014e28f672a.setContent(html_80f2f39922d74da0b0051130317c1f03);
+        
+
+        marker_5a08d0410d9146d480867e52a637eb08.bindPopup(popup_64b1841faafe4a9db4a12014e28f672a)
+        ;
+
+        
+    
+    
+            var marker_edf7fd3aa4594c9690269683ee35a348 = L.marker(
+                [-24.7888, -65.4105],
+                {}
+            ).addTo(map_37e511cc4a5d4aedb2a62ab0b5c4d217);
+        
+    
+        var popup_a807a187fc8045fbb3ed01cc69eeea0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_312923db14c047859362534fd28648f2 = $(`<div id="html_312923db14c047859362534fd28648f2" style="width: 100.0%; height: 100.0%;">Teatro Provincial de Salta</div>`)[0];
+            popup_a807a187fc8045fbb3ed01cc69eeea0d.setContent(html_312923db14c047859362534fd28648f2);
+        
+
+        marker_edf7fd3aa4594c9690269683ee35a348.bindPopup(popup_a807a187fc8045fbb3ed01cc69eeea0d)
+        ;
+
+        
+    
+    
+            var marker_4dc2f0fa63254495ac1184625770ab45 = L.marker(
+                [-24.7859, -65.41166],
+                {}
+            ).addTo(map_37e511cc4a5d4aedb2a62ab0b5c4d217);
+        
+    
+        var popup_8199c3ca2df44c7ea4f0694d2cf746fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a20665dd85d945a1b9e08f75868e1887 = $(`<div id="html_a20665dd85d945a1b9e08f75868e1887" style="width: 100.0%; height: 100.0%;">La Troja</div>`)[0];
+            popup_8199c3ca2df44c7ea4f0694d2cf746fd.setContent(html_a20665dd85d945a1b9e08f75868e1887);
+        
+
+        marker_4dc2f0fa63254495ac1184625770ab45.bindPopup(popup_8199c3ca2df44c7ea4f0694d2cf746fd)
+        ;
+
+        
+    
+</script>
